@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Sample_Contact>
+            <version>0.1.0</version>
+        </Sample_Contact>
+    </modules>
+    <frontend>
+        <routers>
+            <Sample_Contact>
+                <use>standard</use>
+                <args>
+                    <module>Sample_Contact</module>
+                    <frontName>contact</frontName>
+                </args>
+            </Sample_Contact>
+        </routers>
+        <layout>
+            <updates>
+                <sample_contact>
+                    <file>sample_contact.xml</file>
+                </sample_contact>
+            </updates>
+        </layout>
+    </frontend>
+</config>
